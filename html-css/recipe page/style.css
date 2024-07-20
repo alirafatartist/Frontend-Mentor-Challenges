@@ -1,0 +1,124 @@
+@import url("./global.css");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-bg);
+  overflow-x: hidden;
+}
+body .container {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-block: 8rem;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+body .container .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body .container .banner img {
+  width: 100%;
+  border-radius: 1rem;
+}
+body .container .title h1{
+    font-family: var(--font2);
+}
+body .container .title p{
+    margin-top: 2rem;
+    color: var(--text-color);
+    font-family: var(--font1);
+}
+body .container .title .prep{
+    background: var(--socendry-bg);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+body .container .title .prep h3{
+    font-family: var(--font1);
+    color: var(--text-color-sc);
+    margin-bottom: 1rem;
+}
+body .container .title .prep ul{
+    font-family: var(--font1);
+    padding-inline: 2rem;
+}
+body .container .title .prep ul li span{
+    font-weight: bold;
+}
+body .container .title .prep ul li{
+    padding-block: 0.5rem;
+    list-style-type: circle;
+    color: var(--text-color);
+}
+body .container .ingredients{
+    margin-top: 2rem;
+}
+body .container .ingredients h2{
+    font-family: var(--font2);
+    color: var(--text-color-sc);
+}
+body .container .ingredients ul li{
+    list-style-type: disc;
+    padding-block: 0.5rem;
+    font-family: var(--font1);
+    color: var(--text-color);
+}
+body .container .ingredients ul{
+    padding: 1rem;
+    padding-left: 2rem;
+}
+body .container .instructions{
+    margin-top: 2rem;
+    
+}
+body .container .instructions h2{
+    font-family: var(--font2);
+    color: var(--text-color-sc);
+}
+body .container .instructions ul li{
+    list-style-type:decimal;
+    padding-block: 0.5rem;
+    padding-left: 0.7rem;
+    font-family: var(--font1);
+    color: var(--text-color);
+}
+body .container .instructions ul li::marker{
+    color: var(--text-color-sc);
+    font-weight: bold;
+}
+body .container .instructions ul li span{
+    font-weight: bold;
+}
+body .container .instructions ul{
+    padding: 1rem;
+    padding-left: 2rem;
+}
+body .container .nutrition h2{
+    font-family: var(--font2);
+    color: var(--text-color-sc);
+}
+body .container .nutrition p{
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+body .container .nutrition .nutrition-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+    font-family: var(--font1);
+}
+body .container .nutrition .nutrition-container .nutrition-calc{
+    font-weight: bold;
+    color: var(--text-color-sc);
+}
